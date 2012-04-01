@@ -1,1 +1,0 @@
-This folder contains all images referenced in HTML and CSS files.

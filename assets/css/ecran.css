@@ -1,0 +1,67 @@
+/* ===== Base Styles ===== */
+.clearfix:before,
+.clearfix:after { content:""; display:table; }
+.clearfix:after { clear:both; }
+.clearfix { zoom:1; }
+
+body {
+    color: #666;
+    font: normal 12px/1.4 Tahoma, Verdana, Segoe, sans-serif;;
+}
+
+
+/* ===== Typography ===== */
+h1 {
+
+}
+h2 {
+    
+}
+h3 {
+
+}
+h4 {
+    
+}
+p, li, a {
+    
+}
+p {
+    margin-bottom: 15px;
+}
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+a:link,
+a:visited {
+   
+}
+a:focus,
+a:hover,
+a:active {
+    
+}
+
+
+/* ===== Structure ===== */
+#container {
+    width: 100%;
+}
+header,
+#main,
+footer {
+    margin: 0 auto;
+    width: 980px;
+}
+
+
+/* ===== Skin ===== */
+
+
+
+/* ===== Pages/Sections ===== */
+
+

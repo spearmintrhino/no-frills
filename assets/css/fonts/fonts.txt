@@ -1,0 +1,1 @@
+This folder contains fonts to be used with @font-face
