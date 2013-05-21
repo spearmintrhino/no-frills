@@ -94,8 +94,8 @@ a:active {
 .clearfix:after {
     clear: both;
 }
-.ie7 .clearfix {
-    zoom: 1;
+.clearfix {
+    *zoom: 1;
 }
 
 
@@ -155,10 +155,83 @@ a:active {
 .media-bd {
     overflow: hidden;
     *overflow: visible;
-    zoom:1;
+    *zoom:1;
 }
 .media-img {
     float: left;
+}
+.media-img-rev {
+    float:right;
+}
+.media-img img,
+.media-img-rev img {
+    display:block;
+}
+
+
+/*
+ * Caret
+ */
+.caret {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    content: "";
+    display: inline-block;
+    *display: inline;
+    height: 0;
+    vertical-align: top;
+    width: 0;
+}
+.caret-down {
+    border-top: 4px solid #000;
+}
+.caret-up {
+    border-bottom: 4px solid #000;
+}
+.caret-right {
+    border-left: 4px solid #000;
+}
+.caret-left {
+    border-right: 4px solid #000;
+}
+
+
+/*
+ *  Horizontal list
+ */
+.hlist {
+    overflow: hidden;
+    *overflow: visible;
+    *zoom:1;
+    list-style: none;
+    margin-left: 0;
+}
+.hlist > li {
+    display: inline-block;
+    *display: inline;
+}
+
+
+/*
+ * Breadcrumb (use with .hlist)
+ */
+.breadcrumb > li + li:before {
+    content: "\00BB" "\00A0"; 
+    display: inline-block;
+    *display: inline; 
+    padding: 0 6px 0 10px;
+}
+
+
+/*
+ * Pagination (use with .hlist)
+ */
+.pagination > li {
+    text-align: center;
+}
+.pagination > li > a,
+.pagination > li > span {
+    display: block;
 }
 
 

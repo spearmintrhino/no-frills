@@ -1,0 +1,10 @@
+/* ==========================================================================
+    Overrides and specific styles for old IE
+   ========================================================================== */
+/*  
+Non-prefixed rules for <= ie8, * prefixed rules for <= ie7
+.example {
+    background: blue;
+    *background: red;
+}
+*/
